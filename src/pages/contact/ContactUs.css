@@ -1,0 +1,77 @@
+.contact-us {
+  background: rgb(247, 255, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(247, 255, 229, 1) 11%,
+    rgba(155, 164, 181, 0.9221634756082044) 100%
+  );
+  min-height: fit-content;
+  display: grid;
+  gap: 40px;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us h1 {
+  padding: 8px;
+}
+.form-container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background-color: #fffbeb;
+  border-radius: 40px;
+  padding: 30px;
+}
+.form-container-img {
+  aspect-ratio: 9/16;
+  background: url("../../../public/contact/sidahmedlakber_shot_from_close_of_small_round_table_made_of_woo_0f2aa3f7-e0aa-49f7-b3ca-fe3ec27c3404.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size: 18px;
+  margin: 5px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+textarea {
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size: 18px;
+  min-height: 60px;
+  margin: 5px;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+label {
+  font-weight: 600;
+  font-size: 20px;
+}
+@media (max-width: 800px) {
+  .form-container {
+    grid-template-columns: 1fr;
+  }
+  .form-container h1 {
+    font-size: 30px;
+  }
+  .form-container-img {
+    display: none;
+  }
+  .contact-us {
+    padding: 100px 50px;
+  }
+}

@@ -1,0 +1,11 @@
+.signup-container {
+  padding: 100px;
+  min-height: 90vh;
+}
+.signup-form-parent {
+  align-items: center;
+}
+
+input {
+  max-width: 300px;
+}
