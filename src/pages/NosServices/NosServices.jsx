@@ -1,6 +1,7 @@
 import React from "react";
 import "./NosServices.css";
 import NosServicesHero from "./NosServicesHero";
+import { NavLink } from "react-router-dom";
 
 function NosServices() {
   return (
@@ -148,7 +149,9 @@ function NosServices() {
               votre domicile.
             </p>
             <br />
-            <div className="contact-hero-link">Nous Contacter</div>
+            <NavLink className="contact-hero-link" to="/contactUs">
+              Nous contacter
+            </NavLink>
           </div>
           <div className="contact-section-container2"></div>
         </div>

@@ -4,11 +4,11 @@
   height: fit-content;
   background-image: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.8) 15.13%,
-      rgba(255, 255, 255, 0.5) 80.13%,
+      rgba(255, 255, 255, 0.5) 15.13%,
+      rgba(255, 255, 255, 0.2) 80.13%,
       #fff 99%
     ),
-    url("../../../public/services/Design\ sans\ titre\ \(3\).png");
+    url("../../../public/services/sidahmedlakber_modern_living_room_for_hero_section_of_services_0af491d4-9e0e-4dd5-b612-e1c2a67fd22e.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +26,7 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr;
-  color: #252222;
+  color: #000;
   gap: 20px;
 }
 .hero-text-service h2 {
