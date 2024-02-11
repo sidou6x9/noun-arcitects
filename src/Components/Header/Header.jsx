@@ -21,7 +21,7 @@ function Header() {
       <div className={classes.navbar}>
         <div className={classes.logo}>
           <NavLink className="logo" to="/">
-            Start2Grow
+            <img src="/pics/Capture_d_écran_2024-02-03_201657-removebg-preview(1).png" alt="" />
           </NavLink>
         </div>
         {/* Links */}
@@ -40,23 +40,9 @@ function Header() {
               </div>
             );
           })}
-          {/* <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? classes.activeLink : "")}
-          >
-            Home
-          </NavLink>
-          <NavLink to="realisations">Nos Realisations</NavLink>
-          <NavLink to="aboutUs">A propos de nous</NavLink>
-          <NavLink to="contactUs">Nous Contacter</NavLink> */}
+          
         </div>
-        {/* Auth */}
-        {/* <div className={classes.auth}>
-          <NavLink to="login" className={classes.login}>
-            Login
-          </NavLink>
-        </div> */}
-        {/* Hamburger Menu btn */}
+        
         <div className={classes.menuBtn} onClick={openSidebar}>
           <MenuIcon size={33} />
         </div>

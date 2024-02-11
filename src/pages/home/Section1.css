@@ -1,0 +1,183 @@
+.section1 {
+    max-width: 1200px;
+    padding: 0;
+    margin:  100px auto;
+  }
+  /* .section1-title {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    margin: 40px;
+  } */
+  .section1-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .section1-text {
+    padding: 30px 50px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .section1-text h1 {
+    color: #000;
+  }
+  .section1-text h2 {
+    color: #525252;
+    font-weight: 500;
+  }
+  
+  .section1-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #eae1e1;
+  }
+  
+  .section1-card-odd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+    padding: 20px;
+  
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #e5e4ea;
+  }
+  
+  .section1-subcard-text {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section1-subcard-text a {
+    padding: 15px 20px;
+    border-radius: 40px;
+  }
+  .section1-subcard-text h3 {
+    font-size: 2rem;
+  }
+  .section1-subcard-text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  .section1-subcard-text a {
+    width: fit-content;
+    font-size: 1.4rem;
+    color: orange;
+    font-weight: bold;
+  }
+  .section1-subcard-text a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .section1-subcard-img1 {
+      width: 80%;
+      max-width: 400px;
+      aspect-ratio: 1/1;
+      background: url("../../../pics/interior-1961070_1280.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 100px 50px;
+      margin: 20px;
+    }
+
+    .section1-subcard-img2 {
+      width: 80%;
+      max-width: 400px;
+      aspect-ratio: 1/1;
+      background: url("../../../pics/pexels-joseph-russo-17723505.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50px 100px;
+      margin: 20px;
+    }
+
+    .hidden-up {
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateY(-100%);
+      transition: all 1s;
+    }
+    
+    .hidden-down {
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateY(100%);
+      transition: all 1s;
+    }
+    
+    .hidden-left {
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateX(-100%);
+      transition: all 1s;
+    }
+    
+    .hidden-right {
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateX(100%);
+      transition: all 2s;
+    }
+    .show{
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+    }
+
+  
+  @media (max-width: 1000px) {
+    .section1-card {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .section1-card-odd {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .section1-learn-more {
+      margin: auto;
+      color: black;
+      font-weight: bold;
+      background-color: orange;
+    }
+    .section1-subcard-text {
+      justify-content: center;
+      align-items: center;
+    }
+    .section1-subcard-img1,
+    .section1-subcard-img2,
+    .section1-subcard-img3 {
+      margin: auto;
+    }
+    .section1-subcard-text {
+      margin: 0;
+      padding: 10px;
+    }
+  }

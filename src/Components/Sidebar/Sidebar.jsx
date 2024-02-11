@@ -31,17 +31,7 @@ function Sidebar({ isOpen, closeSidebar }) {
       <div className="logos-list">
         <Logos />
       </div>
-      {/* Auth Link */}
-      {/* <div className={classes.auth}>
-        <NavLink
-          to="login"
-          className={({ isActive }) =>
-            `${classes.login} ${isActive ? classes.activeLink : ""}`
-          }
-        >
-          Login
-        </NavLink>
-      </div> */}
+      
     </div>
   );
 }
