@@ -5,14 +5,14 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-left">
-        <h1>Start2Grow</h1>
+        <h1>Med Architects</h1>
         <Logos />
       </div>
       <div className="footer-right">
-        <p>Copyright © 2023 Start2Grow</p>
-        <p>Phone : +33613493937</p>
-        <p>Email : maxime.toumoulin@start2grow.fr</p>
-        <p>Adresse : Paris, France</p>
+        <p>Copyright © 2024 med Sahnoun</p>
+        <p>Phone : +6969696969</p>
+        <p>Email : mohamedSahnoun@live.fr</p>
+        
       </div>
     </div>
   );

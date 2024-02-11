@@ -1,16 +1,28 @@
 import React from "react";
+import Hero from "./Hero";
 import "./Home.css";
-import Hero from "./hero/Hero";
-import AproposSection from "./aproposdenous/AproposSection";
-import Section1 from "./section1/Section1";
-import ContactUsSection from "./contactUsSection/ContactUsSection";
+import ContactUsSection from "../../Components/Contactus/ContactUsSection";
+import Section1 from "./Section1";
+import { Button, Stack } from "@mui/material";
+
 function Home() {
   return (
-    <div className="home">
+    <div className="home-container">
       <Hero />
-      <AproposSection />
+
       <Section1 />
       <ContactUsSection />
+      <Stack spacing={3} direction="row">
+        <Button variant="contained" color="success">
+          help me
+        </Button>
+        <Button variant="contained" color="secondary">
+          suck me
+        </Button>
+        <Button variant="contained" color="primary">
+          fun me
+        </Button>
+      </Stack>
     </div>
   );
 }
