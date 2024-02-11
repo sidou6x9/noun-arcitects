@@ -1,0 +1,154 @@
+.service-container {
+  width: 100%;
+  height: fit-content;
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+}
+/* first */
+.service-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.services-title {
+  font-size: 30px;
+}
+.services-para {
+  font-size: 20px;
+  color: #525252;
+  font-weight: 500;
+}
+.services-card-right {
+  max-width: 600px;
+  aspect-ratio: 1/1;
+  background: url("../../../public/services/Mon\ projet\ \(2\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px 20px;
+}
+/* second */
+.service-layout1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.service-layout1-card {
+  width: 100%;
+  aspect-ratio: 16/9;
+  padding: 20px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 30.13%,
+      rgba(0, 0, 0, 0.8) 97%
+    ),
+    url("../../../../public/herosec/sidahmedlakber_minimalistic_modern_living_room_for_background_i_e35e8d26-5ae1-4fc0-816e-76627bf0dcf7_auto_x2.jpg");
+  opacity: 0.7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-layout1-card:hover {
+  scale: 1.1;
+  transition: 0.2s ease-in;
+  opacity: 1;
+}
+.service-layout1-card p {
+  color: white;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* third */
+.service-interieur {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.service-interieur p {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.pack-interieur {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.6;
+}
+.pack-accesoire {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.6;
+}
+.pack-electromenager {
+  width: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+.tarifs {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.prices {
+  font-weight: 600;
+  color: #252a34;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #b7c4cf;
+}
+@media (max-width: 1000px) {
+  .service-container {
+    padding: 0;
+    text-align: center;
+  }
+  .service-interieur {
+    padding: 30px;
+  }
+  .pack-electromenager {
+    margin: 0;
+    padding: 0;
+  }
+  .tarifs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .tarifs {
+    grid-template-columns: 1fr;
+  }
+}

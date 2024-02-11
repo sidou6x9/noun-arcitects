@@ -1,0 +1,11 @@
+.login-container {
+  padding: 100px;
+  min-height: 90vh;
+}
+.login-form-parent {
+  align-items: center;
+}
+
+input {
+  max-width: 300px;
+}

@@ -1,0 +1,159 @@
+.section1 {
+  background-color: #fff;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+/* .section1-title {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  margin: 40px;
+} */
+.section1-container {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.section1-text {
+  padding: 30px 50px;
+  text-align: center;
+  line-height: 1.6;
+}
+.section1-text h1 {
+  color: #000;
+}
+.section1-text h2 {
+  color: #525252;
+  font-weight: 500;
+}
+
+.section1-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #f7f7f7;
+}
+
+.section1-card-odd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px;
+  padding: 20px;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #f7f7f7;
+}
+
+.section1-subcard-text {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section1-subcard-text a {
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+.section1-subcard-text h3 {
+  font-size: 2rem;
+}
+.section1-subcard-text p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.section1-subcard-text a {
+  width: fit-content;
+  font-size: 1.4rem;
+  color: orange;
+  font-weight: bold;
+}
+.section1-subcard-text a:hover {
+  color: black;
+  font-weight: bold;
+  background-color: orange;
+  transition: 0.3s ease-in-out;
+}
+.section1-subcard-img1 {
+  width: 90%;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  background: url("../../../../public/section1/sidahmedlakber_regular_chair_in_french_apartment_c04c49f3-63ae-4aba-b518-58a9f7e3597e.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px 100px;
+  margin: 20px;
+}
+
+.section1-subcard-img2 {
+  width: 90%;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  background: url("../../../../public/section1/sidahmedlakber_decorated_small_balcony_with_beautiful_plants_an_a57389a1-286f-40f3-aed3-72787961cd6b.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100px 50px;
+  margin: 20px;
+}
+.section1-subcard-img3 {
+  width: 90%;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  background: url("../../../../public/section1/sidahmedlakber_Different_Types_of_Modern_Kitchen_Appliances_in__f9851132-ff13-452e-9bed-0f335cfc0ca8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px 100px;
+  margin: 20px;
+}
+@media (max-width: 1000px) {
+  .section1-card {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .section1-card-odd {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .section1-learn-more {
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+  }
+  .section1-subcard-text {
+    justify-content: center;
+    align-items: center;
+  }
+  .section1-subcard-img1,
+  .section1-subcard-img2,
+  .section1-subcard-img3 {
+    margin: auto;
+  }
+  .section1-subcard-text {
+    margin: 0;
+    padding: 10px;
+  }
+}

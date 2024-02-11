@@ -1,12 +1,13 @@
 header a {
   text-decoration: none;
-  color: #DFBE91;
+  color: #000;
 
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
-  transition: all 0.2s ease;}
+  transition: all 0.2s ease;
+}
 header a:hover {
-  color: #764C31;
+  color: #ff90bb;
   cursor: pointer;
 }
 header {
@@ -16,15 +17,22 @@ header {
 }
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 80px;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.logo img {
-  height: 80px;
+.logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.logo:hover {
+  scale: 1.1;
+  color: #ff90bb;
+
+  transition: 0.4s ease-in-out;
 }
 
 .linkss {
@@ -32,8 +40,8 @@ header {
   display: flex;
 }
 .activeLink {
-  color: #B2935B;
-  border-bottom: 3px solid #B2935B;
+  color: #ff90bb;
+  border-bottom: 3px solid #ff90bb;
 }
 .auth {
   display: flex;
@@ -51,7 +59,7 @@ header {
 .login:hover {
   scale: 1.1;
   color: #fff;
-  background-color: #B2935B;
+  background-color: #ff90bb;
 }
 .menuBtn {
   color: black;

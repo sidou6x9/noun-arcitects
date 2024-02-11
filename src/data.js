@@ -1,9 +1,12 @@
 export const LINKS = [
   {
     to: "/",
-    name: "Accueil",
+    name: "Home",
   },
-
+  {
+    to: "/nos-services",
+    name: "Nos Services",
+  },
   {
     to: "/realisations",
     name: "Nos realisations",

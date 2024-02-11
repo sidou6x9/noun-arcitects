@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 .closeIcon:hover {
-  color: #B2935B;
+  color: #ff90bb;
   cursor: pointer;
   scale: 1.3;
   transition: 0.4s ease-in-out;
@@ -44,11 +44,11 @@
 }
 .activeLink {
   color: #fff;
-  background-color: #B2935B;
+  background-color: #ff90bb;
 }
 .activeLink:hover {
   color: #fff;
-  background-color: #B2935B;
+  background-color: #ff90bb;
 }
 .linkss a {
   color: #fff;
@@ -58,7 +58,7 @@
 .login {
   margin-bottom: 60px;
   background-color: #fff;
-  color: #B2935B;
+  color: #ff90bb;
 }
 .logos-list a {
   margin: 0;

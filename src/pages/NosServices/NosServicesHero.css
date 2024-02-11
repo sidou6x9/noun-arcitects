@@ -1,0 +1,52 @@
+.hero-service {
+  width: 100%;
+  min-height: 80vh;
+  height: fit-content;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 15.13%,
+      rgba(255, 255, 255, 0.2) 80.13%,
+      #fff 99%
+    ),
+    url("../../../public/services/sidahmedlakber_modern_living_room_for_hero_section_of_services_0af491d4-9e0e-4dd5-b612-e1c2a67fd22e.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text-service {
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #000;
+  gap: 20px;
+}
+.hero-text-service h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.hero-text-service p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .hero-text-service {
+    padding: 80px 30px;
+  }
+  .hero-text-service p {
+    display: none;
+  }
+
+  .hero-text-service h2 {
+    font-size: 40px;
+  }
+}
