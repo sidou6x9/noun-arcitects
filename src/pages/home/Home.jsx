@@ -10,7 +10,6 @@ function Home() {
       <Hero />
       <Section1 />
       <ContactUsSection />
-      hey
     </div>
   );
 }

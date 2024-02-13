@@ -1,9 +1,9 @@
 .contact-us {
-  background: rgb(247, 255, 229);
+  background: rgb(155, 164, 181);
   background: linear-gradient(
     180deg,
-    rgba(247, 255, 229, 1) 11%,
-    rgba(155, 164, 181, 0.9221634756082044) 100%
+    rgba(155, 164, 181, 1) 11%,
+    rgba(247, 255, 229, 0.9221634756082044) 100%
   );
   min-height: fit-content;
   display: grid;
@@ -20,13 +20,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  background-color: #fffbeb;
+  background-color: #c0a279;
   border-radius: 40px;
   padding: 30px;
+  margin: 50px;
 }
 .form-container-img {
   aspect-ratio: 9/16;
-  background: url("../../../public/contact/sidahmedlakber_shot_from_close_of_small_round_table_made_of_woo_0f2aa3f7-e0aa-49f7-b3ca-fe3ec27c3404.png");
+  background: rgb(155, 164, 181);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

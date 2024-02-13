@@ -20,10 +20,18 @@ function Section0() {
         </div>
       </div>
       <div className="section0-container-right">
-        <img
-          src="./pics/420990221_349396254661534_5592519099418513154_n.png"
-          alt=""
-        />
+        <div className="section0-container-right-up">
+          <h2>
+            Here's the stack of programs i'm currently working with but that
+            doesn't stop me from always learning more.
+          </h2>
+        </div>
+        <div className="section0-container-right-down">
+          <img
+            src="./pics/420990221_349396254661534_5592519099418513154_n.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
