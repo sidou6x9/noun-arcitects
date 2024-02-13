@@ -3,7 +3,6 @@ import Hero from "./Hero";
 import "./Home.css";
 import ContactUsSection from "../../Components/Contactus/ContactUsSection";
 import Section1 from "./Section1";
-import { Button, Stack } from "@mui/material";
 
 function Home() {
   return (
@@ -12,17 +11,6 @@ function Home() {
 
       <Section1 />
       <ContactUsSection />
-      <Stack spacing={3} direction="row">
-        <Button variant="contained" color="success">
-          help me
-        </Button>
-        <Button variant="contained" color="secondary">
-          suck me
-        </Button>
-        <Button variant="contained" color="primary">
-          fun me
-        </Button>
-      </Stack>
     </div>
   );
 }
