@@ -8,9 +8,9 @@ function Home() {
   return (
     <div className="home-container">
       <Hero />
-
       <Section1 />
       <ContactUsSection />
+      hey
     </div>
   );
 }
